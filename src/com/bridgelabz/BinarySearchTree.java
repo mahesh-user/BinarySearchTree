@@ -6,7 +6,6 @@ public class BinarySearchTree {
         root = insertIntoTheTree(root , data);
     }
 
-
     private TreeNode insertIntoTheTree(TreeNode node, int data) {
         if(node == null){
             return new TreeNode(data);
