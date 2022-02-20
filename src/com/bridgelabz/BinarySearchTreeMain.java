@@ -2,7 +2,9 @@ package com.bridgelabz;
 
 public class BinarySearchTreeMain {
     public static void main(String[] args) {
-        BinarySearchTree binarySearchTree = new BinarySearchTree();
+
+
+    BinarySearchTree binarySearchTree = new BinarySearchTree();
         binarySearchTree.insert(56);
         binarySearchTree.insert(30);
         binarySearchTree.insert(70);
@@ -16,6 +18,5 @@ public class BinarySearchTreeMain {
         binarySearchTree.insert(65);
         binarySearchTree.insert(63);
         binarySearchTree.insert(67);
-        System.out.println(binarySearchTree.search(63));
-    }
+}
 }
